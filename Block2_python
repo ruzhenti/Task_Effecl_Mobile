@@ -57,6 +57,7 @@ def is_isomorphic(s: str, t: str) -> bool:
     return True
 if __name__ == "__main__":
     # Тестовые примеры
+
     s1, t1 = 'paper', 'title'
     print(f"is_isomorphic('{s1}', '{t1}') = {is_isomorphic(s1, t1)}")  # True
     
